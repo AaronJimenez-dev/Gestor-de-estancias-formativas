@@ -4,21 +4,17 @@
 
 ❗ 🔗 Enlace trello:
 
-https://trello.com/b/xGIflTgr/comercios-vitoria
 
 ❗ 🔗 Enlace figma:
 
-https://www.figma.com/design/DLUmd5HuIbwA0nVpaGWb9R/PURPOR?node-id=3-5&p=f&t=J1KcncHSzJQACrTm-0
-
-🔗 CSS carousell: https://css-tricks.com/css-only-carousel/
-
-💮 Implementar para que quede mas bonito.
 
 ‼️ Pasos a seguir:
 
-💮 Al entrar ➡️ Conexion BD ➡️ Mostrar anuncios(solo 1 imagen).
+💮 Al entrar ➡️ Conexion BD ➡️ Mostrar Login.
 
-💮 Mostrar anuncio ➡️ Coger datos de tabla anuncios, imagenes de tabla imagenes, datos de contacto del usuario y el nombre de la categoria de la tabla.
+💮 Al hacer login ➡️ Vista principal del perfil.
+
+💮 Buscar alumno ➡️ Buscar por año ➡️ Buscar por ciclo ➡️ Buscar por nombre.
 
 💮 Leer mas ➡️ Mostrar toda la informacion (ya esta recogida en variables).
 
