@@ -9,19 +9,16 @@ use App\Http\Controllers\EmpresaController;
 use App\Http\Controllers\UsuarioController;
 use App\Http\Controllers\EntregaController;
 use App\Http\Controllers\GradoController;
-
-Route::post('/login', [AuthController::class, 'login']);
-
+use App\Http\Controllers\GradosController;
+use App\Http\Controllers\CompetenciaTecnicaController;
+Route::post('/login', [AuthController::class, 'login'])->name('login');
 Route::middleware('auth:sanctum')->group(function () {
-    Route::post('/logout', [AuthController::class, 'logout']);
     Route::get('/user', function (Request $request) {
         return $request->user();
     });
 
     Route::post('/guardarRA', [ResultadoAprendizajeController::class, 'store']);
-use App\Http\Controllers\GradosController;
-use App\Http\Controllers\CompetenciaTecnicaController;
-    Route::post('/login', [AuthController::class, 'login'])->name('login');
+
     Route::get('/grados', [GradosController::class, 'getGrados']);
     Route::post('/guardarAlumno', [AlumnoController::class, 'store']);
     Route::post('/guardarUsuario', [UsuarioController::class, 'store']);
@@ -40,10 +37,9 @@ use App\Http\Controllers\CompetenciaTecnicaController;
         Route::post('/logout', [AuthController::class, 'logout']);
         Route::get('/user', function (Request $request) {
             return $request->user();
-        });
-
+        });});
+            Route::get('/buscarUsuario', [UsuarioController::class, 'search']);
+        
         Route::post('/guardarRA', [ResultadoAprendizajeController::class, 'store']);
         Route::post('/guardarCompetencia', [CompetenciaTecnicaController::class, 'store']);    
-        });
-            Route::get('/buscarUsuario', [UsuarioController::class, 'search']);
-    
+        
