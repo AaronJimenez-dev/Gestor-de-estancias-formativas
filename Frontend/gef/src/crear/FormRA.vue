@@ -29,6 +29,7 @@
 
 
 <script>
+  import "../assets/css/crear.css";
   import axios from '@/axios';
 export default {
   props: {
