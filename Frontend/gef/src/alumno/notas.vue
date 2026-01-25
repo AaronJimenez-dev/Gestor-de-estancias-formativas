@@ -269,3 +269,6 @@ async function calcularNota() {
         </div>
     </div>
 </template>
+<style src="../assets/css/verNotas.css">
+
+</style>
