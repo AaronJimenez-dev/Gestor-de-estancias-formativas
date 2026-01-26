@@ -84,4 +84,7 @@ networks:
 #docker exec -it fct_laravel bash
 #php artisan key:generate
 #php artisan migrate:fresh
-#php artisan optimize:clea
+#php artisan optimize:clear
+#nano Frontend/gef/src/axios.js
+#nano Frontendgef/src/services/api.js
+#En los 2 de arriba cambiar localhost por la ip del servidor
