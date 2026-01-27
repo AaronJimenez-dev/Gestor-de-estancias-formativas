@@ -1,3 +1,17 @@
+❗ 🔗 Enlace al servidor:  [http://172.20.228.13:5173/](url)
+
+‼️ Contraseña:
+💮 password123
+
+‼️Usuarios disponibles:
+💮 Admins: mnieves@egibide.org, mdiaz@egibide.
+
+💮 Alumno: pedro.jimenez@alumno.edu
+
+💮 Tutor centro: juan.tutor@centro.edu
+
+💮 Tutor empresa: carlos.tech@empresa.com
+
 ©️ Egibide nos ha contratado para digitalizr el DKF
 
 🔜 Tenemos poco tiempo, pero sin prisa, ni pausa.
